@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .blue
+        print(TargetInfo.sharedObject.getBundleID() ?? "번들아이디 없음")
     }
 
 
