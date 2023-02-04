@@ -13,12 +13,7 @@
 		3632C756298E7A04005ED868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3632C755298E7A04005ED868 /* Assets.xcassets */; };
 		3632C762298E8BFC005ED868 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C761298E8BFC005ED868 /* Singleton.swift */; };
 		3632C764298E8EB7005ED868 /* TargetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C763298E8EB7005ED868 /* TargetInfo.swift */; };
-		3632C767298E9111005ED868 /* TargetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C763298E8EB7005ED868 /* TargetInfo.swift */; };
-		3632C768298E9111005ED868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C750298E7A01005ED868 /* ViewController.swift */; };
-		3632C769298E9111005ED868 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C761298E8BFC005ED868 /* Singleton.swift */; };
-		3632C76A298E9111005ED868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C74C298E7A01005ED868 /* AppDelegate.swift */; };
-		3632C76B298E9111005ED868 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C74E298E7A01005ED868 /* SceneDelegate.swift */; };
-		3632C76E298E9111005ED868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3632C755298E7A04005ED868 /* Assets.xcassets */; };
+		3632C775298E97A2005ED868 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C774298E97A2005ED868 /* DeviceInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,19 +25,12 @@
 		3632C75A298E7A04005ED868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3632C761298E8BFC005ED868 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		3632C763298E8EB7005ED868 /* TargetInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetInfo.swift; sourceTree = "<group>"; };
-		3632C772298E9111005ED868 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3632C773298E9111005ED868 /* Archive copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Archive copy-Info.plist"; path = "/Users/youzumin/Desktop/PersonalSwiftStudy/Archive/Archive copy-Info.plist"; sourceTree = "<absolute>"; };
+		3632C774298E97A2005ED868 /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3632C746298E7A01005ED868 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3632C76C298E9111005ED868 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				3632C749298E7A01005ED868 /* Archive.app */,
-				3632C772298E9111005ED868 /* Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,6 +75,7 @@
 			children = (
 				3632C761298E8BFC005ED868 /* Singleton.swift */,
 				3632C763298E8EB7005ED868 /* TargetInfo.swift */,
+				3632C774298E97A2005ED868 /* DeviceInfo.swift */,
 			);
 			path = "Basic Setting";
 			sourceTree = "<group>";
@@ -110,23 +98,6 @@
 			name = Archive;
 			productName = Archive;
 			productReference = 3632C749298E7A01005ED868 /* Archive.app */;
-			productType = "com.apple.product-type.application";
-		};
-		3632C765298E9111005ED868 /* Test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3632C76F298E9111005ED868 /* Build configuration list for PBXNativeTarget "Test" */;
-			buildPhases = (
-				3632C766298E9111005ED868 /* Sources */,
-				3632C76C298E9111005ED868 /* Frameworks */,
-				3632C76D298E9111005ED868 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Test;
-			productName = Archive;
-			productReference = 3632C772298E9111005ED868 /* Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +129,6 @@
 			projectRoot = "";
 			targets = (
 				3632C748298E7A01005ED868 /* Archive */,
-				3632C765298E9111005ED868 /* Test */,
 			);
 		};
 /* End PBXProject section */
@@ -169,14 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3632C756298E7A04005ED868 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3632C76D298E9111005ED868 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3632C76E298E9111005ED868 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,18 +154,7 @@
 				3632C762298E8BFC005ED868 /* Singleton.swift in Sources */,
 				3632C74D298E7A01005ED868 /* AppDelegate.swift in Sources */,
 				3632C74F298E7A01005ED868 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3632C766298E9111005ED868 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3632C767298E9111005ED868 /* TargetInfo.swift in Sources */,
-				3632C768298E9111005ED868 /* ViewController.swift in Sources */,
-				3632C769298E9111005ED868 /* Singleton.swift in Sources */,
-				3632C76A298E9111005ED868 /* AppDelegate.swift in Sources */,
-				3632C76B298E9111005ED868 /* SceneDelegate.swift in Sources */,
+				3632C775298E97A2005ED868 /* DeviceInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,60 +329,6 @@
 			};
 			name = Release;
 		};
-		3632C770298E9111005ED868 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Archive copy-Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = www.youabledev.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3632C771298E9111005ED868 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Archive copy-Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = www.youabledev.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -449,15 +346,6 @@
 			buildConfigurations = (
 				3632C75E298E7A04005ED868 /* Debug */,
 				3632C75F298E7A04005ED868 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3632C76F298E9111005ED868 /* Build configuration list for PBXNativeTarget "Test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3632C770298E9111005ED868 /* Debug */,
-				3632C771298E9111005ED868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

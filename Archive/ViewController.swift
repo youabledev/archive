@@ -11,7 +11,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(TargetInfo.sharedObject.getBundleID() ?? "번들아이디 없음")
     }
 
 
