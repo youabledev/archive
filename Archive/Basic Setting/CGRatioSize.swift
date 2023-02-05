@@ -38,4 +38,7 @@ class CGRatioSize {
         
         return (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first?.safeAreaInsets.bottom
     }
+    
+    /// 1px
+    let k1PX: CGFloat = (1.0 / UIScreen.main.scale)
 }
