@@ -15,6 +15,7 @@
 		3632C764298E8EB7005ED868 /* TargetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C763298E8EB7005ED868 /* TargetInfo.swift */; };
 		3632C775298E97A2005ED868 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C774298E97A2005ED868 /* DeviceInfo.swift */; };
 		3675EF04298FE36D00EDC27E /* CGRatioSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675EF03298FE36D00EDC27E /* CGRatioSize.swift */; };
+		36A7A8D22994739100C849CF /* Date+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7A8D12994739100C849CF /* Date+Ex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		3632C773298E9111005ED868 /* Archive copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Archive copy-Info.plist"; path = "/Users/youzumin/Desktop/PersonalSwiftStudy/Archive/Archive copy-Info.plist"; sourceTree = "<absolute>"; };
 		3632C774298E97A2005ED868 /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 		3675EF03298FE36D00EDC27E /* CGRatioSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRatioSize.swift; sourceTree = "<group>"; };
+		36A7A8D12994739100C849CF /* Date+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		3632C74B298E7A01005ED868 /* Archive */ = {
 			isa = PBXGroup;
 			children = (
+				36A7A8D02994738600C849CF /* Extensions */,
 				3632C760298E8BED005ED868 /* Basic Setting */,
 				3632C74C298E7A01005ED868 /* AppDelegate.swift */,
 				3632C74E298E7A01005ED868 /* SceneDelegate.swift */,
@@ -81,6 +84,14 @@
 				3675EF03298FE36D00EDC27E /* CGRatioSize.swift */,
 			);
 			path = "Basic Setting";
+			sourceTree = "<group>";
+		};
+		36A7A8D02994738600C849CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				36A7A8D12994739100C849CF /* Date+Ex.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 				3632C764298E8EB7005ED868 /* TargetInfo.swift in Sources */,
 				3632C751298E7A01005ED868 /* ViewController.swift in Sources */,
 				3632C762298E8BFC005ED868 /* Singleton.swift in Sources */,
+				36A7A8D22994739100C849CF /* Date+Ex.swift in Sources */,
 				3632C74D298E7A01005ED868 /* AppDelegate.swift in Sources */,
 				3632C74F298E7A01005ED868 /* SceneDelegate.swift in Sources */,
 				3632C775298E97A2005ED868 /* DeviceInfo.swift in Sources */,
