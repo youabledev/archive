@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362C276829A7B8C100D92393 /* RegexTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362C276729A7B8C100D92393 /* RegexTestViewController.swift */; };
 		3632C74D298E7A01005ED868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C74C298E7A01005ED868 /* AppDelegate.swift */; };
 		3632C74F298E7A01005ED868 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C74E298E7A01005ED868 /* SceneDelegate.swift */; };
 		3632C751298E7A01005ED868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632C750298E7A01005ED868 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		362C276729A7B8C100D92393 /* RegexTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexTestViewController.swift; sourceTree = "<group>"; };
 		3632C749298E7A01005ED868 /* Archive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Archive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3632C74C298E7A01005ED868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3632C74E298E7A01005ED868 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				3632C74C298E7A01005ED868 /* AppDelegate.swift */,
 				3632C74E298E7A01005ED868 /* SceneDelegate.swift */,
 				3632C750298E7A01005ED868 /* ViewController.swift */,
+				362C276729A7B8C100D92393 /* RegexTestViewController.swift */,
 				3632C75A298E7A04005ED868 /* Info.plist */,
 			);
 			path = Archive;
@@ -185,6 +188,7 @@
 			files = (
 				3632C764298E8EB7005ED868 /* TargetInfo.swift in Sources */,
 				3632C751298E7A01005ED868 /* ViewController.swift in Sources */,
+				362C276829A7B8C100D92393 /* RegexTestViewController.swift in Sources */,
 				3632C762298E8BFC005ED868 /* Singleton.swift in Sources */,
 				36D8246E29A677B200EADB66 /* String+Ex.swift in Sources */,
 				36A7A8D22994739100C849CF /* Date+Ex.swift in Sources */,
